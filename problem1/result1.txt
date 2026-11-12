@@ -1,0 +1,33 @@
+Script started on 2026-11-12 17:22:39+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="107" LINES="49"]
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ cd~[K[K[Kmkdir p mydir/subdir1 my di[K[K[Kdir/subdir2
+[?2004lmkdir: cannot create directory ‘mydir/subdir1’: No such file or directory
+mkdir: cannot create directory ‘mydir/subdir2’: No such file or directory
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ mkdir -p mydir/subdir1 mydir/subdir2
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ touch mydir/subdir1/file1.txt
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ touch myc[Kdir/subdir2/file2.txt
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ tree mydir
+[?2004l[01;34mmydir[0m
+├── [01;34msubdir1[0m
+│   └── file1.txt
+└── [01;34msubdir2[0m
+    └── file2.txt
+
+3 directories, 2 files
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ tar -cvf mydir [K.tar mydir
+[?2004lmydir/
+mydir/subdir1/
+mydir/subdir1/file1.txt
+mydir/subdir2/
+mydir/subdir2/file2.txt
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ ls -l mydir.tar
+[?2004l-rw-r--r-- 1 psc42 psc42 10240 Nov 12 17:23 [0m[01;31mmydir.tar[0m
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ tar -tvg[Kf mydir.tar
+[?2004ldrwxr-xr-x psc42/psc42       0 2026-11-12 17:23 mydir/
+drwxr-xr-x psc42/psc42       0 2026-11-12 17:23 mydir/subdir1/
+-rw-r--r-- psc42/psc42       0 2026-11-12 17:23 mydir/subdir1/file1.txt
+drwxr-xr-x psc42/psc42       0 2026-11-12 17:23 mydir/subdir2/
+-rw-r--r-- psc42/psc42       0 2026-11-12 17:23 mydir/subdir2/file2.txt
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 17:24:22+09:00 [COMMAND_EXIT_CODE="0"]
