@@ -1,0 +1,38 @@
+Script started on 2026-11-12 17:35:05+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="107" LINES="49"]
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ cd ~
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ mkdir -p logs/old_logs
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ touch logs/app.log
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ touch logs/error.log
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ touch logs/old_logs?app_[K[K[K[K[K/app_log.[K[K[K[Kold.log
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ tree logs
+[?2004l[01;34mlogs[0m
+├── app.log
+├── error.log
+└── [01;34mold_logs[0m
+    └── app_old.log
+
+2 directories, 3 files
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ find ~ -type f -name "*.lgo[K[Kog" 2> [K/dev/null
+[?2004l/home/psc42/.local/state/pipx/log/cmd_2026-10-01_16.30.11.log
+/home/psc42/.local/state/pipx/log/cmd_2026-10-01_16.29.53.log
+/home/psc42/.cache/vimgolf/log/vimgolf-1790841277.718839-2875.log
+/home/psc42/.cache/vimgolf/log/vimgolf-1790840292.773906-2413.log
+/home/psc42/.cache/vimgolf/log/vimgolf-1790841715.102063-2912.log
+/home/psc42/.cache/vimgolf/log/vimgolf-1790839913.45443-2398.log
+/home/psc42/.cache/vimgolf/log/vimgolf-1790840769.453718-2862.log
+/home/psc42/.cache/vimgolf/log/vimgolf-1790841110.093803-2870.log
+/home/psc42/.cache/vimgolf/log/vimgolf-1790840581.448151-2420.log
+/home/psc42/.cache/vimgolf/log/vimgolf-1790841334.302207-2901.log
+/home/psc42/.cache/vimgolf/log/vimgolf-1790841553.783409-2906.log
+/home/psc42/.cache/vimgolf/log/vimgolf-1790840159.2482-2411.log
+/home/psc42/.cache/vimgolf/log/vimgolf-1790840191.55773-2412.log
+/home/psc42/logs/app.log
+/home/psc42/logs/old_logs/app_old.log
+/home/psc42/logs/error.log
+/home/psc42/.docker/desktop/log/host/docker-desktop-user-distro.log
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ find ~ -type f -b[Knae [K[Kme "*.log" 2>/e[Kdev/null | wc -l
+[?2004l17
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 17:37:00+09:00 [COMMAND_EXIT_CODE="0"]
