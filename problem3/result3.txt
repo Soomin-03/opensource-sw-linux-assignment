@@ -1,0 +1,24 @@
+Script started on 2026-11-12 17:29:34+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="107" LINES="49"]
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ cd[K[Kecho 'echo "sensitie[Kve information"' > private.sh
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ cat private.sh
+[?2004lecho "sensitive information"
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ ls -l private.sh
+[?2004l-rw-r--r-- 1 psc42 psc42 29 Nov 12 17:30 private.sh
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ chmod 500 private [K.sh
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ ls -l private.sh
+[?2004l-r-x------ 1 psc42 psc42 29 Nov 12 17:30 [0m[01;32mprivate.sh[0m
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ echo "[$(data)] private.sh 권한 변경: -re[Kw-rw-rw[K-- (664) -> r-x------ (500), 명령어:  cho[Kmod 500 private.[K.sh, 소유자/읽기 [K[K[K[K[K [K자 읽기/ [K실행만 허용하고 group.[K/other 권한 제[K[K[K[K[K 권한 제[K전체 제거 " [K[K[K" >> change_log,[K.txt
+[?2004lCommand 'data' not found, did you mean:
+  command 'dat' from deb liballegro4-dev (2:4.4.3.1-4)
+  command 'date' from deb coreutils (9.4-3ubuntu6.2)
+Try: sudo apt install <deb name>
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ echo "[$(data)] private.sh 권한 변경: -rw-rw-r-- (664) -> r-x------ (500), 명령어: chmod 500 private.sh, 소유자 읽기/실행만 허용하고 group/other 권한 전체 제거" >> change_log.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l private.sh[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "[$(data)] private.sh 권한 변경: -rw-rw-r-- (664) -> r-x------ (500), 명령어: chmod 500 private.sh, 소유자 읽기/실행만 허용하고 group/other 권한 전체 제거" >> change_log.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)] private.sh 권한 변경: -rw-rw-r-- (664) -> r-x------ (500), 명령어: c[1P[A]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[Ce)] private.sh 권한 변경: -rw-rw-r-- (664) -> r-x------ (500), 명령어: [1@c[A]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "[$(date)] private.sh 권한 변경: -rw-rw-r-- (664) -> r-x------ (500), 명령어: chmod 500 private.sh, 소유자 읽기/실행만 허용하고 group/other 권한 전체 제거" >> change_log.txt
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ cat change_log.txt
+[?2004l[] private.sh 권한 변경: -rw-rw-r-- (664) -> r-x------ (500), 명령어: chmod 500 private.sh, 소유자 읽기/실행만 허용하고 group/other 권한 전체 제거
+[Thu Nov 12 17:33:34 KST 2026] private.sh 권한 변경: -rw-rw-r-- (664) -> r-x------ (500), 명령어: chmod 500 private.sh, 소유자 읽기/실행만 허용하고 group/other 권한 전체 제거
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 17:33:45+09:00 [COMMAND_EXIT_CODE="0"]
