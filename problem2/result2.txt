@@ -1,0 +1,23 @@
+Script started on 2026-11-12 17:26:14+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="107" LINES="49"]
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ touch original.txt
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ echo "hello[K[K[K[K[KHello Linux" > original.txt
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ echo "This is a test" >> original.txt
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ echo "h[KHave a good day" >> or[K[Koriginal.txt
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ cat original.txt
+[?2004lHello Linux
+This is a test
+Have a good day
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ cp original.txt backup.txt
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ mv origian[K[Knal.txt data.txt
+[?2004l[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ ls -l backup.txt data.txxt[K[Kt
+[?2004l-rw-r--r-- 1 psc42 psc42 43 Nov 12 17:27 backup.txt
+-rw-r--r-- 1 psc42 psc42 43 Nov 12 17:26 data.txt
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ at[K[Ktail -n 2 data.txt
+[?2004lThis is a test
+Have a good day
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ wc -w data.txt
+[?2004l10 data.txt
+[?2004h]0;psc42@DESKTOP-R44PG2K: ~[01;32mpsc42@DESKTOP-R44PG2K[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 17:28:02+09:00 [COMMAND_EXIT_CODE="0"]
